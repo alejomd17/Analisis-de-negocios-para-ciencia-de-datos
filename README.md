@@ -6,7 +6,6 @@
 </div>
 
 Tabla de Contenidos
-
 =================
 
    * [El mundo de los datos: data science y machine learning](#el-mundo-de-los-datos-data-science-y-machine-learning)
