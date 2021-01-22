@@ -4,7 +4,9 @@
 <div align="center"> 
   <img src="https://static.platzi.com/media/achievements/badge-analisis-negocios-ciencia-datos-3b97d868-a43a-47ac-a2dc-0c0e6cb63f48.png" width="15%">
 </div>
+
 Tabla de Contenidos
+
 =================
 
    * [El mundo de los datos: data science y machine learning](#el-mundo-de-los-datos-data-science-y-machine-learning)
@@ -41,7 +43,7 @@ Estos datos se refieren a las que nos describen como seres humanos, desde las co
   * Monetarias 
    
 Son las que tienen un flujo economico de por medio, como son las que hacemos con la tarjeta de debito o credito, donde los bancos pueden recolectar nuestras preferencias, gastos y necesidades, así como nuestra posibilidad de otorgarnos un credito con base en nuestras transacciones.
-
+ 
   * No monetarias (*o no financieros*)
 
 En este tipo podrían entrar las compañias de telefonos, que podrían analizar nuestro comportamiento de a quien llamamos, cuánto tiempo lo hacemos, y si empezamos a dejar nuestros patrones habituales es probable que dejemos de usar los servicios, por lo que es común que te llamen o contacten para que no abandones.
@@ -55,6 +57,7 @@ La navegación web está principalmente enfocada en las cookies que probablement
 Estos son los datos recolectados para un sistema entre maquina y maquina, como podría ser el GPS, donde tomamos ubicaciones de dispositivos para analizarlos y quizás obtener la mejor ruta.
 
 * Biométricos
+
 Estos datos nos identifican como personas unicas y que puede ser la sangre, la saliva e incluso la huella dactilar. Sin embargo estos datos nos abren un debate ético interesante sobre su uso y confidencialidad.
 
 
