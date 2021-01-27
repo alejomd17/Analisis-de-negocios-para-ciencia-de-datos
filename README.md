@@ -98,6 +98,51 @@ Los datos que recolectamos y analizamos deben ser tomados con total transparenci
 Finalmente algo importante es que debemos ser capaces de llevar a cabo este proceso con menor tiempo y mucha más eficacia, por lo que automatizar nos permitirá hacer o validar la misma hipotesis una y otra vez. Así como recolectar los datos al momento.
 
 
+## ¿Qué es inteligencia artificial y machine learning?
+
+### Contexto
+
+El origen viene de IBM para crear un algoritmo/maquina que jugará ajedrez de tal forma que pudiera ganarle al actual campeón. Para ello se hizo valer de la inteligencia artificial, para poder predecir los movimientos del contrincante y a partir de eso establecer su mejor estrategia. 
+
+Sin embargo en los primeros juegos contra el humano, la maquina perdia, sin embargo no terminaba ahí. En cada juego la maquina procesaba el juego anterior y *entrenaba* para poder predecir mejor la siguiente vez. Hasta que finalmente la maquina ganó y desde ahí ha mejorado y nunca ha perdido. Esto es debido a que la maquina podía predecir su mejor movimiento con 5 movimientos adelante.
+
+
+**Machine Learning**
+
+Una tecnología para encontrar patrones y analizar los datos, de tal forma que podemos clasificarlos o agruparlos. Sin embargo no toda la información viene en un datos tan claros. 
+
+**Deep Learning**
+
+Es por ello que se puede utilizar el deep learning para convertir los datos más abstractos, como los pixeles de una imagen o incluso un video en datos valiosos o utiles de analizar.
+
+## Machine Learning 
+
+Aprendizaje automatizado, tiene muchas aplicaciones.
+  - Detección de fraudes.
+
+  Este algoritmo detecta los comportamientos de un usuario respecto a sus finanzas. De tal forma que si alguien ya ha cometido fraude se entrena a la maquina para detectar el comportamiento hasta perfeccionarlo más y más.
+
+  - Búsqueda Web.
+
+  En este caso se toman las busquedas realizadas en el buscador y se asocia con otros tipos de comportamientos relacionados con la compra, de tal forma que si llegamos a buscar un producto en particular, seguramente en poco tiempo si es que no lo compras, te llegarán anuncios para que lo adquieras. En incluso las empresas saben el momento en que lo estás comprando.
+
+  - Anuncios a tiempo real.
+
+  Relacionado con el ejemplo anterior esto se puede llevar a otro nivel, pues incluso al momento de hacer una compra se puede sugerir productos relacionados que otros usuarios tambien adquirieron al momentos de realizar la compra, llegando a vender más en una transacción de lo que esperabas.
+
+  - Analisis de textos.
+
+  Esta aplicación nos permite analizar y entender los mensajes que hay detras de los textos, llegando a clasificarlos u obteniendo las palabras clave para mejorar la forma en que entendemos los textos de manera automatizada, y más profunda.
+
+  - Next best action
+
+  La traducción es la siguiente mejor acción, de tal forma que podemos llegar a entender mejor el comportamiento del usuario y adelantarnos a vender según la fase del ciclo del usuario.
+
+  
+
+
+
+
 
 
 
