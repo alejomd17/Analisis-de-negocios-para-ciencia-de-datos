@@ -115,7 +115,7 @@ Una tecnología para encontrar patrones y analizar los datos, de tal forma que p
 
 Es por ello que se puede utilizar el deep learning para convertir los datos más abstractos, como los pixeles de una imagen o incluso un video en datos valiosos o utiles de analizar.
 
-## Machine Learning 
+### Machine Learning 
 
 Aprendizaje automatizado, tiene muchas aplicaciones.
   - Detección de fraudes.
@@ -138,11 +138,43 @@ Aprendizaje automatizado, tiene muchas aplicaciones.
 
   La traducción es la siguiente mejor acción, de tal forma que podemos llegar a entender mejor el comportamiento del usuario y adelantarnos a vender según la fase del ciclo del usuario.
 
+## ¿Qué es deep learning? Análisis de imagen, audio y video.
+
+El deep learning nos va a permitir el analisis profundo de imagenes, donde las maquinas hoy en día pueden hacerlo mejor y más rapido.
+
+Nuestra capacidad de analisis de imagenes es limitado, ya que depende de nuestro contexto cultural, nivel de energía y capacidad visual. En cambio para una maquina esto es constante, y se le puede dotar de mayor información hasta perfeccionarse y lograr una efectividad del 99%. Mientras que nosotros mantenemos una efectividad de 95% en nuestro mejor estado de energía.
+
+
+### Ejemplos de uso
+
+**Shazam**
+
+Un caso de uso es Shazam, que hace uso del deep learning para detectar el patrón de la música, o mejor dicho, las ondas de sonido, con el objetivo de comparar dicho patrón sobre todas las canciones conocidas en la base de datos. Además, no sólo la encuentra con mucha efectividad, sino que tambien nos sugiere canciones similares, o que pertenecen al mismo genero musical, y cada vez que escuchamos el modelo va aprendiendo si nos ha gustado o no las sugerencias.
+
+**Tesla**
+
+En el caso de Tesla, usa la inteligencia artificial para analizar los sensores y grabaciones del trayecto para permitir la autonomía de estos autos. Esto es impresionante por que en cada momento se analiza la información, para permitir que avance o se detenga, Tesla tambien tien una gran responsabilidad al distribuir esta tecnología, porque pueden suceder todo tipo de accidentes automovilisticos.
+
+## Flujo de trabajo en ciencia de datos: fases, roles y oportunidades laborales.
+
+Dentro de un equipo encargado de analizar los datos podemos encontrar diferentes roles:
+
+- **Ing de dato** : Es una persona que se encarga de conectar los dispositivos, estableces la estructura encargado de **captar los datos y administrarlos**. Tambien cabe destacar que es el principal responsable de que los datos de un negocio existan. Las herramientas o skills que necesita son los siguientes:
+    - Hacer APIs y eTLs
+    - Conectores
+    - Herramientas de SQL y NoSQL
+- **Analista o Business Intelligence**: Este rol le pertenece a quien, a partir de los datos generados u obtendios por el Ing de datos, extrae la **información** importante para que nos pueda dar el **status actual** de la empresa. Para realizar su trabaho es necesario que:
+    - Cree Dashboards o cuadros de control
+    - Automatice la generación de los mismo.
+    - Utilice SQL y Excel.
+
+- **Data Scientist**: Este rol le pertenece a la persona que, al igual que el *Analista* extrae la información, pero además su enfoque esta en **predecir** el comportamiento de los datos valiendose de su background en matematicas, estadistica y probabilidad. Sus principales herramientas son:
+    - Python y R
   
+Finalmente estos roles dentro de un equipo de analisis de datos, no puede desarrollarse sólo debido a sus habilidades tecnicas y especificas. Para poder alinear los objetivos de este equipo con los de la organización es necesario que exista un Traductor:
 
-
-
-
-
-
+- **Data Translator**: Esta persona se encarga de liderar al equipo de trabajo, para que su trabajo se haga de manera efectiva, y oportuna. Además debe ser capaz de interpretar los datos pero sobre todo:
+    - Tener una comunicación efectiva con otros equipos de la organización 
+    - Ser Experto en las necesidades del negocio.
+  
 
