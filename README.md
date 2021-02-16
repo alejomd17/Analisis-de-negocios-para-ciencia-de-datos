@@ -177,4 +177,172 @@ Finalmente estos roles dentro de un equipo de analisis de datos, no puede desarr
     - Tener una comunicación efectiva con otros equipos de la organización 
     - Ser Experto en las necesidades del negocio.
   
+## Herramientas para cada etapa del análisis de datos.
+
+Las herramientas utilizadas dependeran del rol o etapa del análisis de datos. Pero principalmente tenemos 3 herramientas:
+
+- **SQL**:
+  SQL es un lenguaje de programación para el manejo de datos. Su principal tarea en el analisis de datos, es la **extracción** de información y *síntesis* de la base de datos para saber sobre el pasado y el presente.
+
+Su uso es principalmente por parte del ingeniero de datos y el analista de datos.
+
+- **R**:
+  Este lenguaje está enfocado principalmente en el ambito **estadistico**, y ciertamente al principio puede parecer algo complejo, sin embargo es bastante potente para el analisis y predicción de la información.
+
+Además, el lenguaje R, nos permite generar un **análisis descriptivo y exploratorio**, esto quiere decir que nos permite extraer la información importante de hoy, así como inferir lo que pudiera ocurrir mañana.
+
+Dentro de los principales packetes utilizados, esta *ggplot2* y *dplyr*. Estos paquetes sirven para la visualización de los datos en graficas con bastantes funcionalidades.
+
+Finalmente los roles que utilizan esta herramienta, es pricipalmente el Cientifico de Datos.
+
+- **Python**:
+  Este lenguaje amado por mucho y envidiado por otros, tiene un enfoque hacia la **ingenieria**, por lo que es parecido a otros lenguajes de programación, al menos a los más recientes.
+
+Además, al igual que R, su uso en el analisis de datos está enfocado en el **análisis descriptivo y exploratorio**. Sin embargo su uso se extiende más allá como lo es el Desarrollo Web y de Software.
+
+Los paquetes más utilizados en el ambito de análisis de datos son *Pandas* y *Numpy*. Estos paquetes nos sirven para simplificar el manejo de la información así como el calculo que pudieramos hacer con el mismo.
+
+Finalmente, los roles que más utilizan este lenguaje es el Cientifico de datos, y principalmente aquellos que ya tienen una cercanía con algún lenguaje de programación ya que es mucho más sencillo adaptarse a este nuevo.
+
+## ¿Qué es y cómo usar una base de datos relacional con SQL?
+
+Aprender SQL nos permite extraer información de una Base de Datos del tipo **Relacional**, que se caracteriza por organizar la información en tablas.
+
+### Instrucciones de comandos SQL
+
+***SELECT***
+
+La instrucción select nos permite **OBTENER** información contenida en la base de datos. La estructura de la instrucción select es la siguiente:
+
+**SELECT**  <NOMBRE_COLUMNAS>
+**FROM**  <NOMBRE_DE_LA_TABLA>
+**WHERE** < CONDICION >
+**GROUP BY** <AGRUPAR_POR_EL_NUMERO_DE_COLUMNAS>
+**ORDER BY** <COLUMNA_SOBRE_LA_CUAL_SE_ORDENA>
+
+***Operadores Lógicos***
+Estos operadores lógicos nos permiten estructurar condiciones mucho más complejas, como por ejemplo obtener los datos de los empleados que tienen más de 30 años **y** su nombre empiece con 'A'.
+
+En este caso la palabra **'Y'** se traduce como ***'AND'*** en inglés y significa que ambas condicionales deben cumplirse. Además de *AND* existen otras condicionales como:
+
+- **OR**: Evalua dos o más condicionales y sólo se cumple cuando **al menos** una de ellas se cumple, es decir, se puede cumplir sólo una condición, o todas.
+- **NOT**: Excluye cierta información.
+- **AND**: Evalua dos o más condicionales, y se deben cumplir todas.
+
+***Funciones de agregación***
+
+Nos sirven para encontrar datos especiales o calculos de columnas.
+
+- **AVG**:  Para obtener el promedio de una columna.
+- **COUNT**: Para obtener el número de registros en una columna.
+- **DISTINCT**: Para encontrar valores únicos.
+- **SUM**: Se suman todos los valores de una columna
+- **MAX**: Sirve para encontrar el valor máximo de una columna.
+- **MIN**: Sirve para encontrar el valor más bajo de una columna.
+
+## Como estructurar una consulta SQL
+
+Para realizar una consulta sencilla debemos identificar lo siguiente:
+
+- ¿Qué es lo que queremos obtener? columna
+- ¿De donde lo queremos obtener? tablas
+- ¿Cuales son las restricciones o condiciones? condiciones
+
+Una vez que identificamos cada parte se puede estructurar en una consulta.
+
+```sql
+select < columnas >
+
+from < tablas > 
+
+where  < condiciones >;
+```
+
+
+## Conflictos y retos actuales sobre la ética y el tratamiento de los datos.
+
+Dentro del mundo de la minería y el tratamiento de los datos es importante identificar que datos pueden ser sensibles para el usuario y aquello que simplemente son generales. Además de identificar cuáles datos pueden ser sensibles para nosotros y con cuales nos sentimos comodos de compartir, ya que muchas veces no reflexionamos sobre la información que pudieran tener las aplicaciones debido a que nosotros lo permitimos. 
+
+Entonces de lo más importante es avisar al usuario de los datos que se utilizan dentro de las reglas de negocio así como el trato que se le dará a los mismos. Esto nos dará mayor tranquilidad y al usarlos, siempre con consentimiento del usuario.
+
+
+## Aplica técnicas de storytelling para convertir problemas de datos en historias.
+
+Para estructurar el problema que hemos resuelto de tal forma que todos sean capaces de entenderlo vamos a hacer uso de una técnica de story telling que nos ayuda a estructurar el problema en tres principales partes.
+
+- **PROBLEMA**: Que es lo que está pasando que significa un obstaculo para el flujo correcto de la empresa.
+- **SOLUCIÓN**: Explicar en terminos simples la forma en que se resolverá.
+- **ALCANCE**: (Geografico y temporal) Hasta donde podemos llegar, y a quienes afectará, y en que momento, así como la manera de clasificarlos. ( lo máximo posible y con un aspecto personalizado. )
+
+## Cómo estructurar un caso de negocio
+
+Desglosar un problema de negocio en una hipótesis estructurada:
+
+**¿Qué?** (Problema de negocio o  Hipótesis)
+
+Partir de una pregunta específica.
+**¿Por qué?**
+
+Identificar todos los motivos y clasificarlo en pocas categorías, ejemplo:
+
+* Motivaciones económicas
+* Preguntas
+* Problemas tecnológicos (relacionado con problema de como comunica la empresa).
+* Política de la empresa.
+
+**¿Cómo?**
+
+ Estrategia de cómo vamos a diseñar y organizar todo el análisis:
+
+1.- **Análisis cuantitativo**.
+
+Debe ir siempre primero ya que es toda la información y se trata de hacer una clasificación numérica.
+
+2.- **Análisis cualitativo**.
+
+Buscar categorías en función de texto. Nos ayuda a identificar características, tipos, relacionados con los objetos de estudio o analisis.
+
+3.- **Matriz cuantitativa-cualitativa**.
+
+Poner en conjunto la información, entender los números y explicarlos más a profundidad, incluso podemos empezar a comparar
+
+4.- **Acciones de prevención**.
+
+Definir acciones con la información que tenemos, tanto para prevenir como para contrarestar el problema. **Pasar de los insights a acciones**.
+
+5.- **Validación**.
+
+Verificar si nuestro análisis ha servido y si nuestras acciones de prevención están teniendo efecto, para ver que se puede mejorar.
+
+
+## Análisis cuantitativo en un caso de negocio
+
+
+Para este analisis nos enfocaremos en los números y lo primero es identificar las **variables cuantitativas** que nos ayudarán a resolver el ejercicio (las importantes).
+
+Para esto podemos dividirlo en 3 pasos:
+
+- **Descargar información**: En esta caso debemos filtrar a los objetos de estudio que entren en nuestro analisis, así como establecer macros que nos ayuden a replicar y dar un mayor alcance a este analisis, pueden ser **geograficos** y **temporales**.
+- **Identificar**: Debemos establecer patrones de comportamiento, así como variables significativas que nos ayuden a caracterizar a nuestro objeto de estudio.
+  Por ejemplo:
+  - Madurez (compras realizadas)
+  - Quejas mensuales
+  - Compras mensuales (dinero)
+  - Gasto mensual
+  - Créditos y dinero devuelto
+  - Margen operativo neto (Cuanto he ganado como empresa).
+- **Definir**: Aqui tratamos de segmentar o clasificar a partir de las variables definidas en el paso anterior.
+  Por ejemplo
+  - Segmentacion según rentabilidad
+  - Threshold(límite) Top Offender
+  - Threshold(límite) para cada categoría
+    - Clientes regulares
+    - Clientes bronce
+    - Clientes plata
+    - Clientes dorados
+
+Finalmente para llegar al objetivo debemos encontrar el limite para cada categoria, esto significa los clientes que provocan la mayoría de las quejas y para esto debemos segmentar por categoría y para cada categoría buscar los usuarios que más se quejan despues tomar los primeros y definir cuales son los principales. Podemos guiarnos del principio de pareto, el 80% de los resultados viene del 20% de las acciones, esto podría significar que el 80% de las quejas vienen del 20% de los usuarios, nuestra tarea es identificar esté 20%, pero sólo es un número inclusive podría ser menos del 20% de los usuarios.
+
+
+## Análisis cualitativo en un caso de negocio.
 
