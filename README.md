@@ -359,6 +359,69 @@ Para este caso nos centraremos en buscar la principal motivación de los usuario
 
 Para esta etapa del analisis ya hemos identificado quienes son los TO y tambien hemos identificado las posibles motivaciones de su causa, es decir ya contamos con las variables cuantitativas y cualitativas más importantes para el caso de estudio.
 
+Ahora, lo que tenemos que hacer es resolver de manera conjunta la información cuantitativa y cualitativa para sacar conclusiones. Esto lo lograremos identificando el motivo para cada uno de los tipos de usuarios identificados previamente.
+
+Una vez creada tu matriz
 
 
-Ahora, lo que tenemos que hacer es resolver de manera conjunta la información cuantitativa y cualitativa para sacar conclusiones.
+| x | Motivo 1 | Motivo 2 | Motivo n... |
+| - | - | - | - |
+| Tipo Usuario 1 | % | % | % |
+| Tipo Usuario 2 | % | % | % |
+| Tipo usuario n | % | % | % |
+
+Ahora podemos sacar mejores conclusiones sobre el motivo de cada tipo de usuario y que es sobre lo que más se quejan, podríamos establecer un comportamiento común y sobre ello trabajar en aquellas cosas que se quejan más y nos interesa que disminuya.
+
+## ¿Qué es minería de texto?¿Cómo usarla para obtener información adicional?
+
+La minería de texto, tiene como recurso la palabra escrita y obtiene información de la misma que nos puede ser útil para identificar de manera certera qué es de lo que se queja en gran mayoría las personas al llegar a soporte al cliente, inclusive aún más que identificar el motivo categórico.
+
+Una vez leído los mensajes podemos identificar las siguientes razones de los clientes.
+
+
+| Regular | Bronce | Plata | Oro |
+| - | - | - | - |
+| Tarifa de devolución, Tasa de envío, Cómo embalar para devolución | Tarifa de devolución, Tasa de envío, Estado del producto | Tarifa de devolución, Facturas, Estado del producto | Facturas, Estado del producto, Log in |
+
+
+De esta manera podemos analizar de manera más detallada las razones de las quejas de los usuarios, y con un contexto adecuado de las reglas de negocio sabremos que por ejemplo tanto el bronce como el regular se trata de costos de devolución o compensaciones economicas por el estado del producto. Y sin embargo el Plata, se preocupa por las facturas, esto significa que se trata de una **empresa** que requiere dichos documentos para comprobar, así como el usuario ORO, además que en el Log in son varios accesos debido a que es una empresa y hay cambio de empleados, etc.
+
+Finalmente esto se trata de un caso de estudio, pero en concreto la minería de datos nos permite encontrar temas más especificos dentro de los textos que tenemos almacenados, de tal manera que nos podemos percatar de que es lo que requiere el usuario y como podemos evitarlo o mejorarlo.
+
+
+## Variación de comportamientos a partir de geolocalización.
+
+Para analizar los comportamientos a partir de la geolocalización podríamos partir de una vista general que compare la cantidad de compras con respecto a la cantidad de quejas que realiza cada ciudad y de acuerdo a esto ver cual es el comportamiento normal de las ciudades.
+
+![geolocalizacion](https://i.imgur.com/ul5kdHN.png)
+
+En este ejemplo vemos que para identificar a las ciudades que más se quejan están puebla, queretaro y otras. Esto es porque se encuentran más cercanas al eje horizontal. Mientras que podríamos identificar a mexicalli como una ciudad donde se hacen más compras  que quejas.
+
+Posteriormente podrías hacer un analisis más profundo donde identifiques las razones de estos usuarios en dichas ciudades, e inclusive la cantidad de usuarios. La verdad es que conforme avanzas puedes generar más hipostesis y validarlas a través de los datos para saber aún más de este comportamiento y por supuesto que nos sirva para decidir que hacer.
+
+## Acciones, algoritmos y toma de decisiones según los resultados del análisis.
+
+En este paso debemos convertir la información obtenida del análisis en una estrategia o toma de decisiones.
+
+Para poder obtener los datos se usaron diferentes tipos de **algoritmos** que se presentan a continuación:
+
+- Minería de datos pata clasificación de motivos de contacto.
+  - Esto se utilizó para extraer los motivos y reagrupar los mismo.
+- Correlaciones y patrones de comportamiento.
+  - Esto se utilizó para encontrar si existía similitud entre los usuario que compraban y se quejaban más o menos. Asi como patrones de comportamiento
+- Árboles de decision y teoría de juegos para predecir y tomar decisiónes.
+  - Nos ayudan a una ramificación para tomar decisiones conforme avanzamos empezando con una hipotesis A/B, y nos acercamos con teoría de juegos para decidir cual es la mejor estrategia.
+- Validación con bayesianos y MCMC
+  - La estadistica bayesiana es muy útil para identificar patrones que se **comportan de manera conjuntas**
+  - La cadenas de montecarlo son probabilidades **concatenadas**, como por ejemplo en tiempo. Si este mes sucede, el siguiente tambien.
+  - Ambos algoritmos se realizan despues de nuestro analisis, para medir el impacto de nuestras acciones.
+
+
+Además de los algoritmos usados, tambien se pueden realizar algunas acciones a partir del analisis y se plantean a continuación.
+
+- Taggear a los Top Offenders identificados mensualmente.
+- Advertirlos
+- Llamar usuarios
+- Bloquear usuarios
+- Validación con A/B Tests
+  - para tener diferentes estrategias, ver como se comporta cada grupo y evaluar cuál es la mejor opción.
